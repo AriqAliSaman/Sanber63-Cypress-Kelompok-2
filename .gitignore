@@ -2,4 +2,8 @@ cypress/e2e/1-getting-started
 cypress/e2e/2-advanced-examples
 cypress/e2e/belajar
 cypress/e2e/orangehrm
-cypress/e2e/Ariq-Ali-Saman/learn/note.txt
+cypress/e2e/learn/cypress_api
+cypress/e2e/learn/cypress_test
+cypress/e2e/learn/saucedemo-page
+cypress/e2e/learn/saucedemo-test
+cypress/e2e/learn/note.txt

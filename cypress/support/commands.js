@@ -19,6 +19,13 @@ Cypress.Commands.add('SauceDemoLogin', (username, password) => {
 Cypress.Commands.add('ErrorAlert', (message) => { 
     cy.get('[data-test="error"]').should('have.text', message)
  })
+
+
+Cypress.Commands.add('LumaLogin', (username, password) => { 
+    cy.get('#user-name').type(username)
+    cy.get('#password').type(password)
+    cy.get('#login-button').click()
+})
 //
 //
 // -- This is a child command --
