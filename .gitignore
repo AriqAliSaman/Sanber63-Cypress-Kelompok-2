@@ -4,6 +4,7 @@ cypress/e2e/belajar
 cypress/e2e/orangehrm
 cypress/e2e/learn/cypress_api
 cypress/e2e/learn/cypress_test
-cypress/e2e/learn/saucedemo-page
-cypress/e2e/learn/saucedemo-test
+cypress/e2e/learn/saucedemo
+cypress/e2e/learn/saucedemo/saucedemo-pageobject
+cypress/e2e/learn/saucedemo/saucedemo-test
 cypress/e2e/learn/note.txt
