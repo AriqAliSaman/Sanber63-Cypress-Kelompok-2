@@ -6,8 +6,8 @@ module.exports = defineConfig({
     baseUrl: 'https://magento.softwaretestingboard.com/',
     
     env:{
-      email: "TeSt123098@gmail.com",
-      password: "TeSt123098",
+      // email: "TeSt123098@gmail.com",
+      // password: "TeSt123098",
 
       // incorrect_username: "standard_users",
     },
