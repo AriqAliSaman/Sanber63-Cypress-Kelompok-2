@@ -6,7 +6,7 @@ describe('template spec', () => {
       cy.get('#email').type('idevanti.acc@gmail.com')
       cy.get('#pass').type('v@nti123')
       cy.get('#send2').click()
-    })
+   
 
 
 
@@ -23,6 +23,7 @@ describe('template spec', () => {
      //proceed checkout
      cy.visit('https://magento.softwaretestingboard.com/checkout/cart/')
      cy.title('Proceed to Checkout').click()
+    })
 
   })
   
