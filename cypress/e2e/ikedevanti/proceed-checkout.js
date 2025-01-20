@@ -24,10 +24,5 @@ describe('template spec', () => {
      cy.visit('https://magento.softwaretestingboard.com/checkout/cart/')
      cy.title('Proceed to Checkout').click()
 
-
-
-    
-    
-  
   })
   
