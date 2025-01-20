@@ -1,8 +1,9 @@
 describe('Proceed Checkout', () => {
 
 
-    it('login success - success login', () => {
+    it('proceed checkout', () => {
       cy.visit('https://magento.softwaretestingboard.com')
+      cy.get('.panel > .header > .authorization-link > a').click();
       cy.get('#email').type('idevanti.acc@gmail.com')
       cy.get('#pass').type('v@nti123')
       cy.get('#send2').click()
