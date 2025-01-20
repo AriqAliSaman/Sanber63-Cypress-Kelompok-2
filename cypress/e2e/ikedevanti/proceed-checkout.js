@@ -1,8 +1,8 @@
-describe('Proceed Checkou', () => {
+describe('Proceed Checkout', () => {
 
 
     it('login success - success login', () => {
-      cy.visit('https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dFN1Y2Nlc3Mv/')
+      cy.visit('https://magento.softwaretestingboard.com')
       cy.get('#email').type('idevanti.acc@gmail.com')
       cy.get('#pass').type('v@nti123')
       cy.get('#send2').click()
