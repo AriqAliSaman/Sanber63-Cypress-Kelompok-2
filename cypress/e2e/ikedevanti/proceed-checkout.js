@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('Proceed Checkou', () => {
 
 
     it('login success - success login', () => {
@@ -7,9 +7,6 @@ describe('template spec', () => {
       cy.get('#pass').type('v@nti123')
       cy.get('#send2').click()
    
-
-
-
      // choose product
      cy.visit('https://magento.softwaretestingboard.com/gear.html')
      cy.get('#ui-id-6')
