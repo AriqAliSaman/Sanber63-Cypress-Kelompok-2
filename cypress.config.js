@@ -3,7 +3,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     // baseUrl: 'https://www.saucedemo.com/',
-    baseUrl: 'https://magento.softwaretestingboard.com/',
+    //baseUrl: 'https://magento.softwaretestingboard.com/',
     
     env:{
       // email: "TeSt123098@gmail.com",
@@ -14,6 +14,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    experimentalStudio: true,
     viewportHeight: 750,
     viewportWidth: 1500,
   },
