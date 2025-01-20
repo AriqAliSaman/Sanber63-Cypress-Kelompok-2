@@ -1,27 +1,27 @@
 describe('Proceed Checkout', () => {
 
+  it('proceed checkout', () => {
+    // Visit homepage
+    cy.visit('https://magento.softwaretestingboard.com');
 
-    it('proceed checkout', () => {
-      cy.visit('https://magento.softwaretestingboard.com')
-      cy.get('.panel > .header > .authorization-link > a').click();
-      cy.get('#email').type('idevanti.acc@gmail.com');
-      cy.get('#pass').type('v@nti123');
-      cy.get('#send2').click();
-   
-     // choose product
-     cy.visit('https://magento.softwaretestingboard.com/gear.html');
-     cy.get('#ui-id-6')
-     cy.get('#narrow-by-list2');
-     cy.visit('https://magento.softwaretestingboard.com/gear/bags.html');
-     cy.visit('https://magento.softwaretestingboard.com/overnight-duffle.html');
+    // Login
+    cy.get('.panel > .header > .authorization-link > a').click();
+    cy.get('#email').type('idevanti.acc@gmail.com');
+    cy.get('#pass').type('v@nti123');
+    cy.get('#send2').click();
 
-     // add to chart
-     cy.get('#product-addtocart-button');
+    // Navigate to product category
+    cy.visit('https://magento.softwaretestingboard.com/gear.html');
+    cy.get('#ui-id-6').click(); // Example: Clicking the "Gear" category
+    cy.visit('https://magento.softwaretestingboard.com/gear/bags.html');
+    cy.visit('https://magento.softwaretestingboard.com/overnight-duffle.html');
 
-     //proceed checkout
-     cy.visit('https://magento.softwaretestingboard.com/checkout/cart/');
-     cy.title('Proceed to Checkout').click();
-    });
+    // Add product to cart
+    cy.get('#product-addtocart-button').click();
 
+    // Proceed to checkout
+    cy.visit('https://magento.softwaretestingboard.com/checkout/cart/');
+    cy.contains('Proceed to Checkout').click(); // Use visible text to locate button
   });
-  
+
+});
