@@ -5,4 +5,4 @@ SanberCode 63 - Kelompok 2:
 4. Ariq Ali Saman (AriqAliSaman)       => Edit Address
 5. Daspan Tisnandar (DasvanTysnandar)  => Choose Product
 6. Sofi Maulidia (Sofimaulidia24)      => Update Shopping Cart
-7. Ike Devanti                         => Proceed to Checkout
+7. Ike Devanti (devadenti)             => Proceed to Checkout
